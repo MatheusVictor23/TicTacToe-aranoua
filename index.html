@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div id="title">
+            <h1 style="margin-bottom: 10px;">Jogo da Velha</h1>
+            <hr>
+        </div>
+        <div class="players">
+            <h3 class="player1">Azul</h3>
+            <h3 class="player2">Vermelho</h3>
+        </div>
+        
+        <table class="table">
+            <tr class="column">
+                <td class="row" data-region="0.0"></td>
+                <td class="row" data-region="0.1"></td>
+                <td class="row" data-region="0.2"></td>
+            </tr>
+            <tr class="column">
+                <td class="row" data-region="1.0"></td>
+                <td class="row" data-region="1.1"></td>
+                <td class="row" data-region="1.2"></td>
+            </tr>
+            <tr class="column">
+                <td class="row" data-region="2.0"></td>
+                <td class="row" data-region="2.1"></td>
+                <td class="row" data-region="2.2"></td>
+            </tr>
+        </table>
+        <button id="playButton">Iniciar Jogo</button>
+    </div>
+
+</body>
+<script src="./index.js"></script>
+</html>
